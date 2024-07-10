@@ -85,6 +85,7 @@ body {
     font-weight: 600;
     padding: 21px 24px 21px 24px;
     margin: 32px 0px 44px 0px;
+    cursor: pointer;
 }
 
 .second-page {
@@ -170,6 +171,7 @@ body {
     font-weight: 600;
     padding: 12px 20px 12px 20px;
     margin: 32px 0px 9.5px 0px;
+    cursor: pointer;
 
 }
 
@@ -211,6 +213,7 @@ body {
 
 .cause-two .cause-info .lnmr-btn {
     margin: 0px 428px 9.5px 48px;
+    cursor: pointer;
 }
 
 .why-web-dev .cause-three {
@@ -481,7 +484,7 @@ body {
     font-size: 20px;
     font-weight: 600;
     padding: 17px 20px;
-
+    cursor: pointer;
     background: rgb(255, 255, 255);
 }
 
@@ -506,4 +509,5 @@ body {
 
 .footer-img {
     margin-right: 10px;
+    cursor: pointer;
 }
