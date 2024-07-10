@@ -240,3 +240,46 @@ body {
     height: 187.32px;
 }
 
+
+.third-page {
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+}
+
+.third-page .my-inspi {
+    width: 1140px;
+    height: 775px;
+    border: 3px solid blue;
+    margin-bottom: 150px;
+
+}
+
+.third-page .my-inspi .my-ispi-title-dis {
+    text-align: center;
+}
+
+.third-page .my-inspi .my-ispi-title-dis .title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.third-page .my-inspi .my-ispi-title-dis .discription {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.my-inspi .my-inspi-video {
+
+    width: 1076px;
+    height: 550px;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
