@@ -283,3 +283,105 @@ body {
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
 }
+
+
+
+
+.fourth-page {
+    margin: 0 auto;
+    width: 1140px;
+    height: 460px;
+
+}
+
+.fourth-page .my-curnt-trgt {}
+
+.fourth-page .my-curnt-trgt .info .title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    text-align: center;
+
+}
+
+.fourth-page .my-curnt-trgt .info .discription {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 48px;
+    text-align: center;
+
+}
+
+.fourth-page .my-curnt-trgt .items {
+    border: 2px solid red;
+    display: flex;
+    width: 1140px;
+    height: 299px;
+    justify-content: space-between;
+
+}
+
+.fourth-page .my-curnt-trgt .items .item-1 {
+    padding: 40px;
+    width: 284px;
+    height: 219px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+
+}
+
+.fourth-page .my-curnt-trgt .items img {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+
+.fourth-page .my-curnt-trgt .items .title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    margin-bottom: 8px;
+    font-weight: 800;
+}
+
+.fourth-page .my-curnt-trgt .items .discription {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 24px;
+
+
+}
+
+.fourth-page .my-curnt-trgt .items .item-lnmr {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.fourth-page .my-curnt-trgt .items .item-2 {
+    border-radius: 16px;
+    padding: 40px;
+    background: rgba(0, 76, 232, 0.05);
+    width: 284px;
+    height: 219px;
+}
+
+.fourth-page .my-curnt-trgt .items .item-3 {
+    width: 284px;
+    height: 219px;
+    padding: 40px;
+    border-radius: 16px;
+
+    background: rgba(255, 223, 0, 0.05);
+
+}
