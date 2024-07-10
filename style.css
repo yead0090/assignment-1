@@ -23,14 +23,14 @@ body {
     background-image: url('assets/Hero-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
 
 .header .banner-sec {
     width: 1440px;
 
     height: 750;
-    
+
 }
 
 .header .banner {
@@ -38,7 +38,7 @@ body {
 
     /* max-width: 1440px;
     max-height: 652px; */
-    
+
     width: 998px;
     height: 660px;
 }
@@ -53,7 +53,7 @@ body {
     height: 240px;
     margin-top: 26px;
     margin-bottom: 30px;
-    
+
 
 }
 
@@ -86,6 +86,7 @@ body {
     padding: 21px 24px 21px 24px;
     margin: 32px 0px 44px 0px;
 }
+
 .second-page {
     width: 1140px;
     height: 1500px;
@@ -384,4 +385,89 @@ body {
 
     background: rgba(255, 223, 0, 0.05);
 
+}
+
+.fifth-page {
+
+    width: 1140px;
+    height: 315px;
+    margin: 0 auto;
+    border: 3px solid blue;
+
+
+}
+
+.fifth-page .support {
+    border: 3px solid red;
+    width: 1140px;
+    height: 315px;
+    background-image: url('assets/handshake.jpg');
+    background-size: 1140px 314px;
+    border-radius: 16px;
+
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+
+
+}
+
+.support-title-dis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth-page .support .title {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 64px;
+    margin-bottom: 16px;
+
+}
+
+.fifth-page .support .discription {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    margin-bottom: 24px;
+    font-weight: 400;
+}
+
+.fifth-page .support .sup-form-btn {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+
+
+}
+
+.fifth-page .support .sup-form-btn .sup-form {
+    width: 508px;
+    height: 16px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 16px;
+    padding: 20px;
+    border-radius: 16px;
+
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+}
+
+.fifth-page .support .sup-form-btn .sup-btn {
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px;
+
+    background: rgb(255, 255, 255);
 }
