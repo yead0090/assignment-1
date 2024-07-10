@@ -86,4 +86,157 @@ body {
     padding: 21px 24px 21px 24px;
     margin: 32px 0px 44px 0px;
 }
+.second-page {
+    width: 1140px;
+    height: 1500px;
+    margin: 74px 150px 88px 150px;
+    padding: 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+
+}
+
+.why-web-dev {
+    width: 1050px;
+    margin: 0 auto;
+
+
+}
+
+.why-web-dev .sec-title-dis {
+    text-align: center;
+
+}
+
+.why-web-dev .sec-title {
+    margin-bottom: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.why-web-dev .sec-discription {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 48px;
+
+}
+
+
+
+.why-web-dev .cause-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    margin-bottom: 32px;
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+
+
+
+.cause-one .title {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0px 16px 0px;
+}
+
+.cause-one .discription {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    opacity: 0.7;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.lnmr-btn {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px 12px 20px;
+    margin: 32px 0px 9.5px 0px;
+
+}
+
+.cause-one .cause-img {
+    width: 259.56px;
+    height: 217.01px;
+    padding: 3px 13px 19px 0px;
+
+}
+
+.why-web-dev .cause-two {
+    border-radius: 16px;
+
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    flex-direction: row;
+    padding: 48px;
+
+    width: 946px;
+    height: 336px;
+}
+
+.cause-two .title {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 101px 16px 48px;
+}
+
+.cause-two .discription {
+    margin: 0px 110px 32px 48px;
+}
+
+.cause-two .cause-info .lnmr-btn {
+    margin: 0px 428px 9.5px 48px;
+}
+
+.why-web-dev .cause-three {
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    width: 946px;
+    height: 336px;
+    display: flex;
+    padding: 48px;
+    margin-top: 32px;
+}
+
+.cause-three .title {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10.5px 236px 16px 0px;
+}
+
+.cause-three .discription {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin: 0px 160px 32px 0px;
+
+
+}
+
+.cause-three .cause-img {
+
+    width: 206.4px;
+    height: 187.32px;
+}
 
