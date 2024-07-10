@@ -17,11 +17,11 @@ body {
 
 .header {
     margin-bottom: 74px;
-    max-width: 1440px;
-    max-height: 750px;
+    /* max-width: 1440px;
+    max-height: 750px; */
     margin: 0 auto;
     background-image: url('assets/Hero-bg.png');
-    background-size: cover;
+    background-size: 1440px 750px;
     background-repeat: no-repeat;
 
 }
@@ -39,7 +39,7 @@ body {
     /* max-width: 1440px;
     max-height: 652px; */
 
-    width: 998px;
+    width: 1440px;
     height: 660px;
 }
 
@@ -406,6 +406,7 @@ body {
     border-radius: 16px;
 
     background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+    margin-bottom: 79px;
 
 
 }
@@ -470,4 +471,22 @@ body {
     padding: 17px 20px;
 
     background: rgb(255, 255, 255);
+}
+
+.footer {
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
+    border: 3px solid yellow;
+    background: rgba(13, 19, 33, 0.03);
+    width: 1200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
 }
